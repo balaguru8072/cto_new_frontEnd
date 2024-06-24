@@ -1,0 +1,389 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    background: url('./images/New_imges/cto\ homepage\ background.png') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 139, 0.4);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #ffc107;
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 24px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e0a800;
+}
+.trusted-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.trusted-section h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.trusted-section .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.trusted-section .logos img {
+    max-width: 100px;
+    height: auto;
+}
+
+.trusted-section p {
+    font-size: 18px;
+    font-style: italic;
+}
+.custom-line {
+    border-top: 4px solid black;
+    width: 100%;
+}
+.text-center h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.text-center p {
+    font-size: 1.5rem;
+}
+
+.startup-top-part .bg-primary {
+    background-color: #6c9fe0 !important; /* Custom blue color */
+}
+
+.startup-top-part h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.startup-top-part h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.startup-top-part ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.startup-top-part ul li::before {
+    content: "•";
+    color: black; /* Bullet color */
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.startup-top-part img {
+    max-width: 50px; /* Adjust the size of the image */
+    height: auto;
+}
+
+.cto-expert .bg-dark {
+    background-color: #073763 !important; /* Custom dark blue color */
+}
+
+.cto-expert h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff9900; /* Custom orange color */
+}
+
+.cto-expert p {
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+
+.cto-expert img {
+    max-width: 150px; /* Adjust the size of the image */
+    height: auto;
+}
+
+.cto-expert .btn-warning {
+    background-color: #ff9900; /* Custom button color */
+    border-color: #ff9900;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.cto-expert .btn-warning:hover {
+    background-color: #e68a00;
+    border-color: #e68a00;
+}
+.contents{
+    max-width: 63.563rem !important;
+
+}
+.content {
+    /* max-width: 600px;
+    margin: 50px auto; */
+    text-align: center;
+}
+.content h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.content p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.card {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border: none;
+}
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.row {
+    justify-content: center;
+}
+.hero-section {
+    position: relative;
+    background-image: url('./images/cto_home_img.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adds a dark overlay */
+}
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+.hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.hero-content p {
+    font-size: 1.3rem;
+}
+
+.hiring-model .section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.hiring-model .model-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.hiring-model .model-description {
+    text-align: left;
+}
+
+.faq h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.faq h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.faq p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.industrysectors h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.industrysectors .lead {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.industrysectors ul {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.industrysectors ul li::before {
+    content: "\2022";
+    color: black;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+} 
+
+.industrysectors .list-unstyled{
+    padding-left: 2.75rem !important;
+}
+
+.bookdetile .bg-primary {
+    background-color: #003366 !important;
+}
+
+.bookdetile h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.bookdetile p {
+    font-size: 1.25rem;
+}
+
+.bookdetile label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.bookdetile .btn-warning {
+    background-color: #ff9900;
+    border-color: #ff9900;
+    color: white;
+}
+
+.bookdetile .btn-warning:hover {
+    background-color: #e68a00;
+    border-color: #e68a00;
+}
+
+.project h2 {
+    font-size: 2.5rem;
+    font-weight: 800 !important;
+    color: #ff9900; /* Custom orange color */
+}
+
+
+.card-header {
+    background-color: #ffffff;
+    border-bottom: 0;
+}
+
+.btn-link {
+    color: #343a40;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.card-body {
+    color: #131212;
+    background-color: white;
+    border-top: 1px solid #343a40;
+}
+
+.card {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.accordion .card-header:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.service-img {
+    width: 100%;
+    height: auto;
+}
+.service-list {
+    list-style-type: none;
+    padding: 0;
+}
+.service-list li {
+    padding: 5px 0;
+}
