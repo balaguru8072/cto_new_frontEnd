@@ -36,3 +36,9 @@ document.addEventListener('DOMContentLoaded', () => {
         requestAnimationFrame(animation);
     }
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Add the 'visible' class to the header after the page loads
+    document.querySelector("header").classList.add("visible");
+});
